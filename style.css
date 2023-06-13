@@ -152,7 +152,7 @@ button{
     height: 20px;
     left: 340px;
     opacity: .5;
-    top: 300px;
+    top: 330px;
     transition: 0.2s;
 }
 .btns .rodriguezLandslide:hover{
@@ -355,7 +355,7 @@ button{
     height: 20px;
     left: 260px;
     opacity: .5;
-    top: 470px;
+    top: 490px;
     transition: 0.2s;
 }
 .btns .mateoLandslide:hover{
@@ -455,7 +455,7 @@ button{
     height: 20px;
     left: 220px;
     opacity: .5;
-    top: 450px;
+    top: 480px;
     transition: 0.2s;
 }
 .btns .mateoEarthquake:hover{
@@ -609,7 +609,7 @@ button{
     height: 20px;
     left: 190px;
     opacity: .5;
-    top: 690px;
+    top: 740px;
     transition: 0.2s;
 }
 .btns .tayFlood:hover{
@@ -659,7 +659,7 @@ button{
     height: 20px;
     left: 150px;
     opacity: .5;
-    top: 750px;
+    top: 770px;
     transition: 0.2s;
 }
 .btns .tayLandslide:hover{
@@ -711,7 +711,7 @@ button{
     height: 20px;
     left: 200px;
     opacity: .5;
-    top: 780px;
+    top: 800px;
     transition: 0.2s;
 }
 .btns .ngonoFlood:hover{
@@ -759,9 +759,9 @@ button{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 230px;
+    left: 250px;
     opacity: .5;
-    top: 780px;
+    top: 800px;
     transition: 0.2s;
 }
 .btns .ngonoLandslide:hover{
@@ -813,7 +813,7 @@ button{
     height: 20px;
     left: 305px;
     opacity: .5;
-    top: 720px;
+    top: 750px;
     transition: 0.2s;
 }
 .btns .resaFlood:hover{
@@ -863,7 +863,7 @@ button{
     height: 20px;
     left: 330px;
     opacity: .5;
-    top: 690px;
+    top: 710px;
     transition: 0.2s;
 }
 .btns .resaLandslide:hover{
@@ -915,7 +915,7 @@ button{
     height: 20px;
     left: 315px;
     opacity: .5;
-    top: 770px;
+    top: 810px;
     transition: 0.2s;
 }
 .btns .rongFlood:hover{
@@ -965,7 +965,7 @@ button{
     height: 20px;
     left: 360px;
     opacity: .5;
-    top: 720px;
+    top: 780px;
     transition: 0.2s;
 }
 .btns .rongLandslide:hover{
@@ -1067,7 +1067,7 @@ button{
     height: 20px;
     left: 560px;
     opacity: .5;
-    top: 590px;
+    top: 600px;
     transition: 0.2s;
 }
 .btns .nayLandslide:hover{
@@ -1119,7 +1119,7 @@ button{
     height: 20px;
     left: 425px;
     opacity: .5;
-    top: 770px;
+    top: 790px;
     transition: 0.2s;
 }
 .btns .rasFlood:hover{
@@ -1169,7 +1169,7 @@ button{
     height: 20px;
     left: 420px;
     opacity: .5;
-    top: 720px;
+    top: 750px;
     transition: 0.2s;
 }
 .btns .rasLandslide:hover{
@@ -1271,7 +1271,7 @@ button{
     height: 20px;
     left: 560px;
     opacity: .5;
-    top: 818px;
+    top: 870px;
     transition: 0.2s;
 }
 .btns .liliaLandslide:hover{
@@ -1321,9 +1321,9 @@ button{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 520px;
+    left: 550px;
     opacity: .5;
-    top: 1090px;
+    top: 1190px;
     transition: 0.2s;
 }
 .btns .lajalaFlood:hover{
@@ -1423,7 +1423,7 @@ button{
     height: 20px;
     left: 560px;
     opacity: .5;
-    top: 1070px;
+    top: 1160px;
     transition: 0.2s;
 }
 .btns .lajalaEarthquake:hover{
