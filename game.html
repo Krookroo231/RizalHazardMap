@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangman Game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Hangman Game</h1>
+  
+  <button onclick="backtoIndex()" class="button">Exit</button>
+  <div id="drawing-container">
+    <canvas id="hangman-drawing" width="200" height="200"></canvas>
+  </div>
+  
+  <div id="word-container">
+    <p id="word-display"></p>
+  </div>
+  
+  <div id="guesses-container">
+    <p>Incorrect Guesses: <span id="incorrect-guesses"></span></p>
+  </div>
+  
+  <div id="game-buttons">
+    <button id="new-game">New Game</button>
+    <button id="restart">Restart</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

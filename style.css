@@ -1,0 +1,1675 @@
+/* .no-scroll {
+    overflow: hidden;
+  } */
+
+.img img{
+    position: relative;
+    border: 5px solid black;
+}
+.gamebutton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgb(0, 72, 35);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+button{
+    cursor: pointer;
+}
+
+.descriptionImage{
+    position: relative;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+/* E. Rodriguez Hazards */
+.btns .rodriguezEarthquake{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 490px;
+    opacity: .5;
+    top: 220px;
+    transition: 0.2s;
+}
+.btns .rodriguezEarthquake:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.erodEarthquakeDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.erodEarthquakeDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.erodEarthquakeDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .rodriguezFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 260px;
+    opacity: .5;
+    top: 340px;
+    transition: 0.2s;
+}
+.btns .rodriguezFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.erodFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.erodFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.erodFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .rodriguezLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 340px;
+    opacity: .5;
+    top: 300px;
+    transition: 0.2s;
+}
+.btns .rodriguezLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.erodLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.erodLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.erodLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* Antipolo Hazards */
+.btns .icon2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 480px;
+    top: 520px;
+    opacity: .5;
+    transition: 0.2s;
+}
+.btns .icon2:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.description2{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.description2 p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.description2 h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .antipLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 380px;
+    opacity: .5;
+    top: 570px;
+    transition: 0.2s;
+}
+.btns .antipLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.antipoloLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.antipoloLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.antipoloLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .antipFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 280px;
+    opacity: .5;
+    top: 570px;
+    transition: 0.2s;
+}
+.btns .antipFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.antipoloFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.antipoloFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.antipoloFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* san mateo */
+
+.btns .mateoLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 260px;
+    opacity: .5;
+    top: 470px;
+    transition: 0.2s;
+}
+.btns .mateoLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.sanMateoLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.sanMateoLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.sanMateoLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .mateoFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 170px;
+    opacity: .5;
+    top: 490px;
+    transition: 0.2s;
+}
+.btns .mateoFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.sanMateoFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.sanMateoFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.sanMateoFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .mateoEarthquake{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 220px;
+    opacity: .5;
+    top: 450px;
+    transition: 0.2s;
+}
+.btns .mateoEarthquake:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.sanMateoEarthquakeDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.sanMateoEarthquakeDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.sanMateoEarthquakeDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* cainta Rizal */
+
+.btns .intaFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 190px;
+    opacity: .5;
+    top: 590px;
+    transition: 0.2s;
+}
+.btns .intaFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.caintaFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.caintaFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.caintaFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .intaLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    opacity: .5;
+    top: 590px;
+    transition: 0.2s;
+}
+.btns .intaLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.caintaLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.caintaLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.caintaLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* taytay rizal */
+
+.btns .tayFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 190px;
+    opacity: .5;
+    top: 690px;
+    transition: 0.2s;
+}
+.btns .tayFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.taytayFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.taytayFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.taytayFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .tayLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    opacity: .5;
+    top: 750px;
+    transition: 0.2s;
+}
+.btns .tayLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.taytayLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.taytayLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.taytayLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* angono rizal */
+
+.btns .ngonoFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    opacity: .5;
+    top: 780px;
+    transition: 0.2s;
+}
+.btns .ngonoFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.angonoFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.angonoFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.angonoFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .ngonoLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 230px;
+    opacity: .5;
+    top: 780px;
+    transition: 0.2s;
+}
+.btns .ngonoLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.angonoLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.angonoLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.angonoLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* teresa rizal */
+
+.btns .resaFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 305px;
+    opacity: .5;
+    top: 720px;
+    transition: 0.2s;
+}
+.btns .resaFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.teresaFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.teresaFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.teresaFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .resaLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 330px;
+    opacity: .5;
+    top: 690px;
+    transition: 0.2s;
+}
+.btns .resaLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.teresaLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.teresaLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.teresaLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* morong rizal */
+
+.btns .rongFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 315px;
+    opacity: .5;
+    top: 770px;
+    transition: 0.2s;
+}
+.btns .rongFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.morongFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.morongFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.morongFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .rongLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 360px;
+    opacity: .5;
+    top: 720px;
+    transition: 0.2s;
+}
+.btns .rongLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.morongLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.morongLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.morongLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* tanay rizal */
+
+.btns .nayFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 560px;
+    opacity: .5;
+    top: 730px;
+    transition: 0.2s;
+}
+.btns .nayFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.tanayFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.tanayFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.tanayFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .nayLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 560px;
+    opacity: .5;
+    top: 590px;
+    transition: 0.2s;
+}
+.btns .nayLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.tanayLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.tanayLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.tanayLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* baras rizal */
+
+.btns .rasFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 425px;
+    opacity: .5;
+    top: 770px;
+    transition: 0.2s;
+}
+.btns .rasFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.barasFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.barasFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.barasFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .rasLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 420px;
+    opacity: .5;
+    top: 720px;
+    transition: 0.2s;
+}
+.btns .rasLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.barasLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.barasLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.barasLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* pililia rizal */
+
+.btns .liliaFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 530px;
+    opacity: .5;
+    top: 890px;
+    transition: 0.2s;
+}
+.btns .liliaFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.pililiaFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.pililiaFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.pililiaFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .liliaLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 560px;
+    opacity: .5;
+    top: 818px;
+    transition: 0.2s;
+}
+.btns .liliaLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.pililiaLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.pililiaLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.pililiaLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* jalajala rizal */
+
+.btns .lajalaFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 520px;
+    opacity: .5;
+    top: 1090px;
+    transition: 0.2s;
+}
+.btns .lajalaFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.jalajalaFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.jalajalaFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.jalajalaFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .lajalaLandslide{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 560px;
+    opacity: .5;
+    top: 1118px;
+    transition: 0.2s;
+}
+.btns .lajalaLandslide:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.jalajalaLandslideDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.jalajalaLandslideDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.jalajalaLandslideDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .lajalaEarthquake{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 560px;
+    opacity: .5;
+    top: 1070px;
+    transition: 0.2s;
+}
+.btns .lajalaEarthquake:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.jalajalaEarthquakeDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.jalajalaEarthquakeDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.jalajalaEarthquakeDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* binangonan rizal */
+
+.btns .nangonanFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 300px;
+    opacity: .5;
+    top: 890px;
+    transition: 0.2s;
+}
+.btns .nangonanFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.binangonanFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.binangonanFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.binangonanFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .nangonanStorm{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 260px;
+    opacity: .5;
+    top: 818px;
+    transition: 0.2s;
+}
+.btns .nangonanStorm:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.binangonanStormDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.binangonanStormDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.binangonanStormDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+/* cardona rizal */
+
+.btns .donaFlood{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 360px;
+    opacity: .5;
+    top: 1090px;
+    transition: 0.2s;
+}
+.btns .donaFlood:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.cardonaFloodDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.cardonaFloodDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.cardonaFloodDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+.btns .donaStorm{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 330px;
+    opacity: .5;
+    top: 918px;
+    transition: 0.2s;
+}
+.btns .donaStorm:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.cardonaStormDesc{
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: rgba(64, 63, 63, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.cardonaStormDesc p{
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.cardonaStormDesc h1{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+
+}
+
+
+/* test design */

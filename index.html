@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Rizal Hazards/Dangers Map</title>
+</head>
+<body>  <!--class="no-scroll"-->
+    <div>
+        <h1>Rizal Calamity Map</h1>
+    </div>
+    <div class="img">
+        <img src="image/Cainta.png"/>
+        
+    </div>
+    <div>
+     <button class="gamebutton" onclick="playGame()">Play Game</button>
+    </div>
+    <!-- rodriguez rizal -->
+ <div id="eRodHazards">
+    <div class="btns">
+        <button id="erodEarthquake">
+            <img class="rodriguezEarthquake" src="image/earthquake.png"/>
+        </button>
+    </div>
+
+    <div class="erodEarthquakeDesc">
+        <h1>Rodriguez Rizal Earthquake</h1>
+        <p id="description-one">
+            <img class="descriptionImage" src="image/rodriguez.jpg"/> 
+            <br>
+            E. Rodriguez Avenue in Rizal, Philippines, is located within a seismically active region. 
+            The entire Philippines is situated along the Pacific Ring of Fire,
+             which is known for its tectonic activity and is prone to earthquakes and volcanic eruptions. 
+             Therefore, like many other areas in the country,
+              E. Rodriguez Avenue in Rizal is also considered to be at risk of earthquakes.
+            <button id="erodEarthquakeClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    
+
+    <!-- ----------------------------------------- -->
+    <div class="btns">
+        <button id="erodFlood">
+            <img class="rodriguezFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="erodFloodDesc">
+        <h1>Rodriguez Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/rodriguez.jpg"/> 
+            <br>
+            Low-lying areas near the Marikina River, San Mateo River, 
+            and their tributaries are prone to flooding,
+            particularly during heavy rainfall and typhoon events.
+            <button id="erodFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+    <!-- -------------------------------------------- -->
+    <div class="btns">
+        <button id="erodLandslide">
+            <img class="rodriguezLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="erodLandslideDesc">
+        <h1>Rodriguez Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/rodriguez.jpg"/> 
+            <br>
+            The municipality has mountainous terrain,
+             making it susceptible to landslides,
+              especially in areas with steep slopes and loose soil.
+            <button id="erodLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+ </div>
+ <!-- ---------------ANTIPOLO--------------------- -->
+ <div id="antipsHazards">
+    <!-- antipolo city rizal -->
+    <div class="btns">
+        <button id="open2">
+        <img class="icon2" src="image/earthquake.png" />
+    </button>
+    </div>
+
+    <div class="description2">
+        <h1>Antipolo City Earthquake</h1>
+        <p id="description2-one">
+            <img class="descriptionImage" src="image/antipolo.jpg"/> 
+            <br>
+            Antipolo City in Rizal, Philippines, 
+            is prone to earthquakes due to its location in the seismically active Pacific Ring of Fire 
+            and its proximity to active fault lines,
+            such as the West Valley Fault.
+            
+            
+            <button id="close2" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+     <!-- -------------------------------------------- -->
+
+     <div class="btns">
+        <button id="antipoloLandslide">
+            <img class="antipLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="antipoloLandslideDesc">
+        <h1>Antipolo City Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/antipolo.jpg"/> 
+            <br>
+            The city has hilly and mountainous terrain,
+             which increases the risk of landslides,
+              especially in areas with steep slopes and loose soil.
+            <button id="antipoloLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- -------------------------------- -->
+
+    <div class="btns">
+        <button id="antipoloFlood">
+            <img class="antipFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="antipoloFloodDesc">
+        <h1>Antipolo City Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/antipolo.jpg"/> 
+            <br>
+            Some areas near the Hinulugang Taktak National Park, Marikina River,
+            and its tributaries are prone to flooding during heavy rainfall or typhoons.
+            <button id="antipoloFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+<!-- --------SAN MATEO-------------- -->
+ <div id="sanMateoHazards">
+    <div class="btns">
+        <button id="sanMateoLandslide">
+            <img class="mateoLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="sanMateoLandslideDesc">
+        <h1>San Mateo Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/san mateo.jpg"/> 
+            <br>
+            San Mateo has hilly terrain, increasing the risk of landslides,
+             particularly in areas with steep slopes and loose soil.
+            <button id="sanMateoLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+    <div class="btns">
+        <button id="sanMateoFlood">
+            <img class="mateoFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="sanMateoFloodDesc">
+        <h1>San Mateo Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/san mateo.jpg"/> 
+            <br>
+            Some areas near the Marikina River, Manggahan Floodway,
+             and its tributaries are susceptible to flooding during heavy rainfall or typhoon events.
+            <button id="sanMateoFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+    <div class="btns">
+        <button id="sanMateoEarthquake">
+            <img class="mateoEarthquake" src="image/earthquake.png" />
+        </button>
+    </div>
+
+    <div class="sanMateoEarthquakeDesc">
+        <h1>San Mateo Earthquake</h1>
+        <p>
+            <img class="descriptionImage" src="image/san mateo.jpg"/> 
+            <br>
+            San Mateo, Rizal, Philippines, is located within a seismically active region.
+             Similar to other areas in the Philippines, San Mateo is situated along the Pacific Ring of Fire, which is known for its tectonic activity,
+             including earthquakes and volcanic eruptions.
+             Therefore, San Mateo is considered to be at risk of earthquakes.
+             Cardona
+            <button id="sanMateoEarthquakeClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+ </div>
+  <!-- ---------------Cainta, Rizal--------------------- -->
+<div id="CaintaHazards">
+    <div class="btns">
+        <button id="caintaFlood">
+            <img class="intaFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="caintaFloodDesc">
+        <h1>Cainta, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/cainta.jpg"/> 
+            <br>
+            Low-lying areas near the Manggahan Floodway, Marikina River,
+            and its tributaries are susceptible to flooding during heavy rainfall or typhoon events.
+            <button id="caintaFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="caintaLandslide">
+            <img class="intaLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="caintaLandslideDesc">
+        <h1>Cainta, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/cainta.jpg"/> 
+            <br>
+            While Cainta is not as mountainous as other areas, 
+            there may still be localized landslide risks in hilly parts of the municipality.
+            <button id="caintaLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+<!-- ---------TAYTAY RIZAL -------------------- -->
+<div id="TaytayHazards">
+    <div class="btns">
+        <button id="taytayFlood">
+            <img class="tayFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="taytayFloodDesc">
+        <h1>Taytay, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/taytay.jpg"/> 
+            <br>
+            Certain areas near the Laguna de Bay shoreline, Manggahan Floodway, and its
+             tributaries are at risk of flooding during heavy rains and typhoons.
+            <button id="taytayFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="taytayLandslide">
+            <img class="tayLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="taytayLandslideDesc">
+        <h1>Taytay, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/taytay.jpg"/> 
+            <br>
+            Taytay is generally less prone to landslides, but hilly areas with
+             steep slopes may still be susceptible under certain conditions.
+            <button id="taytayLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- ---------Angono RIZAL -------------------- -->
+<div id="angonoHazards">
+    <div class="btns">
+        <button id="angonoFlood">
+            <img class="ngonoFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="angonoFloodDesc">
+        <h1>Angono, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/angono.JPG"/> 
+            <br>
+            Some areas near the rivers and creeks in Agono can experience 
+            flooding during heavy rainfall or typhoon events.
+            <button id="angonoFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="angonoLandslide">
+            <img class="ngonoLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="angonoLandslideDesc">
+        <h1>Angono, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/angono.JPG"/> 
+            <br>
+            Agono has hilly terrain, which increases the risk of landslides,
+             especially in areas with steep slopes and loose soil.
+            <button id="angonoLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- --------Teresa Rizal -------------------- -->
+<div id="teresaHazards">
+    <div class="btns">
+        <button id="teresaFlood">
+            <img class="resaFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="teresaFloodDesc">
+        <h1>Teresa, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/teresa.jpg"/> 
+            <br>
+            Low-lying areas near the Laguna de Bay shoreline, rivers, and creeks in Teresa
+             are susceptible to flooding during heavy rains or typhoons.
+            <button id="teresaFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="teresaLandslide">
+            <img class="resaLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="teresaLandslideDesc">
+        <h1>Teresa, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/teresa.jpg"/> 
+            <br>
+            Teresa has hilly areas where landslides can occur,
+             particularly in areas with steep slopes and loose soil.
+            <button id="teresaLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- --------morong Rizal -------------------- -->
+<div id="morongHazards">
+    <div class="btns">
+        <button id="morongFlood">
+            <img class="rongFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="morongFloodDesc">
+        <h1>Morong, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/morong.jpg"/> 
+            <br>
+            Low-lying areas near the Laguna de Bay shoreline, rivers, and creeks in Teresa
+             are susceptible to flooding during heavy rains or typhoons.
+            <button id="morongFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="morongLandslide">
+            <img class="rongLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="morongLandslideDesc">
+        <h1>Morong, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/morong.jpg"/> 
+            <br>
+            Teresa has hilly areas where landslides can occur,
+             particularly in areas with steep slopes and loose soil.
+            <button id="morongLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- --------tanay Rizal -------------------- -->
+<div id="tanayHazards">
+    <div class="btns">
+        <button id="tanayFlood">
+            <img class="nayFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="tanayFloodDesc">
+        <h1>Tanay, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/tanay.jpg"/> 
+            <br>
+            Low-lying areas near the Tanay River, Sierra Madre Mountain Range, and their tributaries can
+             experience flooding during heavy rainfall and typhoon events.
+            <button id="tanayFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="tanayLandslide">
+            <img class="nayLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="tanayLandslideDesc">
+        <h1>Tanay, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/tanay.jpg"/> 
+            <br>
+            Tanay has significant mountainous areas, and several barangays are at risk of landslides,
+             especially during intense rainfall or prolonged wet periods.
+
+            <button id="tanayLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- --------baras Rizal -------------------- -->
+<div id="barasHazards">
+    <div class="btns">
+        <button id="barasFlood">
+            <img class="rasFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="barasFloodDesc">
+        <h1>Baras, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/baras.jpg"/> 
+            <br>
+            Certain areas near the rivers, creeks, and low-lying parts of 
+            Baras are prone to flooding during heavy rainfall or typhoon events.
+            <button id="barasFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="barasLandslide">
+            <img class="rasLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="barasLandslideDesc">
+        <h1>Baras, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/baras.jpg"/> 
+            <br>
+            Baras has mountainous terrain, making it susceptible to landslides,
+             especially in areas with steep slopes and loose soil.
+            <button id="barasLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- --------pililia Rizal -------------------- -->
+<div id="pililiaHazards">
+    <div class="btns">
+        <button id="pililiaFlood">
+            <img class="liliaFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="pililiaFloodDesc">
+        <h1>Pililia, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/pililia.jpg"/> 
+            <br>
+            Some areas near the rivers and creeks in Pililla can 
+            experience flooding during heavy rainfall or typhoon events.
+            <button id="pililiaFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="pililiaLandslide">
+            <img class="liliaLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="pililiaLandslideDesc">
+        <h1>Pililia, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/pililia.jpg"/> 
+            <br>
+            Pililla has hilly areas where landslides can occur,
+             particularly in areas with steep slopes and loose soil.
+            <button id="pililiaLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- ---------jalajala Rizal ------------------ -->
+<div id="jalajalaHazards">
+    <div class="btns">
+        <button id="jalajalaFlood">
+            <img class="lajalaFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="jalajalaFloodDesc">
+        <h1>jalajala, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/jalajala.jpg"/> 
+            <br>
+            Jala Jala is prone to flooding, particularly in low-lying areas near the rivers, creeks,
+             and Laguna de Bay shoreline during heavy rainfall or typhoon events.
+            <button id="jalajalaFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="jalajalaLandslide">
+            <img class="lajalaLandslide" src="image/landslide.png" />
+        </button>
+    </div>
+
+    <div class="jalajalaLandslideDesc">
+        <h1>jalajala, Rizal Landslide</h1>
+        <p>
+            <img class="descriptionImage" src="image/jalajala.jpg"/> 
+            <br>
+             Jala Jala has hilly terrain, which increases the risk
+             of landslides, especially in areas with steep slopes and loose soil.
+            <button id="jalajalaLandslideClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ---------------------------- -->
+
+    <div class="btns">
+        <button id="jalajalaEarthquake">
+            <img class="lajalaEarthquake" src="image/earthquake.png" />
+        </button>
+    </div>
+
+    <div class="jalajalaEarthquakeDesc">
+        <h1>jalajala, Rizal Earthquake</h1>
+        <p>
+            <img class="descriptionImage" src="image/jalajala.jpg"/> 
+            <br>
+            Like other areas in Rizal Province, Jala Jala can experience earthquakes
+             due to its proximity to the seismically active region.
+            <button id="jalajalaEarthquakeClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+
+</div>
+
+<!-- --------binangonan Rizal -------------------- -->
+<div id="binangonanHazards">
+    <div class="btns">
+        <button id="binangonanFlood">
+            <img class="nangonanFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="binangonanFloodDesc">
+        <h1>Binangonan, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/binangonan.jpg"/> 
+            <br>
+            Low-lying areas near the Laguna de Bay shoreline, rivers, and creeks
+             in Binangonan are susceptible to flooding during heavy rains or typhoons.
+            <button id="binangonanFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="binangonanStorm">
+            <img class="nangonanStorm" src="image/storm.png" />
+        </button>
+    </div>
+
+    <div class="binangonanStormDesc">
+        <h1>Binangonan, Rizal Storm</h1>
+        <p>
+            <img class="descriptionImage" src="image/binangonan.jpg"/> 
+            <br>
+            Being a coastal municipality along Laguna de Bay, Binangonan is also
+            vulnerable to storm surges during typhoons or strong cyclones.
+            <button id="binangonanStormClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+
+<!-- --------cardona Rizal -------------------- -->
+<div id="cardonaHazards">
+    <div class="btns">
+        <button id="cardonaFlood">
+            <img class="donaFlood" src="image/flood.png" />
+        </button>
+    </div>
+
+    <div class="cardonaFloodDesc">
+        <h1>Cardona, Rizal Flood</h1>
+        <p>
+            <img class="descriptionImage" src="image/cardona.jpg"/> 
+            <br>
+            Certain low-lying areas near the Laguna de Bay shoreline, Cardona River, and its tributaries are
+             prone to flooding, especially during heavy rains or typhoons.
+            <button id="cardonaFloodClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+    <!-- ----------------------------- -->
+    <div class="btns">
+        <button id="cardonaStorm">
+            <img class="donaStorm" src="image/storm.png" />
+        </button>
+    </div>
+
+    <div class="cardonaStormDesc">
+        <h1>Cardona, Rizal Storm</h1>
+        <p>
+            <img class="descriptionImage" src="image/cardona.jpg"/> 
+            <br>
+            Being a coastal municipality, Cardona is vulnerable to storm surges during typhoons
+            or strong cyclones. Coastal communities should be aware of this hazard.
+            <button id="cardonaStormClose" style="position: absolute; top: 5px; right: 10px; border: none; background-color: #dc3545; color: white; padding: 5px;border-radius: 8px;">close</button>
+        </p>
+    </div>
+</div>
+    <script src="myScript.js"></script>
+</body>
+</html>
