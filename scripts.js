@@ -1,4 +1,4 @@
-const words = ["earthquake", "landslide", "risk", "thunderstorm", "tsunami", "typhoon", "wildfire","disaster"];
+const words = ["earthquake", "landslide", "risk", "thunderstorm", "tsunami", "typhoon", "wildfire","disaster,rizal,hazard,prone,evacuation"];
 const MAX_INCORRECT_GUESSES = 7;
 
 let chosenWord;
