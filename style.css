@@ -1671,5 +1671,22 @@ button{
 
 }
 
+/* history text */
+.historyDesc {
+    position: absolute;
+    left: 880px;
+    top: 100px; 
+}
+.historyDesc p{
+    position: relative;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.historyDesc h1{
+    position: relative;
+}
+
 
 /* test design */

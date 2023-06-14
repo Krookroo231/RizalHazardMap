@@ -2,6 +2,7 @@ function noscroll(event){
     event.preventDefault();
     window.scrollTo(0, 0);
 }
+
 function playGame(){
   window.location.href = 'game.html';
 }
