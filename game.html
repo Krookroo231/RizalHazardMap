@@ -11,6 +11,8 @@
   <div id="drawing-container">
     <canvas id="hangman-drawing" width="200" height="200"></canvas>
   </div>
+
+  
   
   <div id="word-container">
     <p id="word-display"></p>
@@ -24,6 +26,47 @@
     <button id="new-game">New Game</button>
     <button id="restart">Restart</button>
   </div>
+
+  <div id="popup-container">
+    <div id="popup">
+      <p id="popup-message">MECHANICS:<br>
+        <br> * Start the game by selecting a random word from a predefined list of words.
+        <br><br> * Display the word as underscores.
+        <br><br> * If letter guessed is in word, reveal all occurrences
+        <br><br> * If letter guessed not in word, increment incorrect count and show hangman drawing.
+        <br><br> * Keep track and show incorrect guesses to player.
+        <br><br> * Display Congratulations pop-up if player wins by guessing all letters.
+        <br><br> * Display Game-over pop-up if player lose
+        <br><br> * You can restart the game by clicking new game or restart
+      </p>
+      <button id="popup-close">Close</button>
+    </div>
+  </div>
+
+  <script>
+    // Show the pop-up when the page loads
+    document.addEventListener("DOMContentLoaded", function() {
+      const popupContainer = document.getElementById("popup-container");
+      const popupCloseButton = document.getElementById("popup-close");
+      
+      // Disable keyboard input
+      document.addEventListener("keydown", disableKeyboardInput);
+
+      popupCloseButton.addEventListener("click", function() {
+        popupContainer.style.display = "none";
+        // Enable keyboard input
+        document.removeEventListener("keydown", disableKeyboardInput);
+      });
+      
+      popupContainer.style.display = "block";
+      
+    });
+
+    function disableKeyboardInput(event) {
+  event.preventDefault();
+  event.stopPropagation();
+}
+  </script>
 
   <script src="scripts.js"></script>
 </body>

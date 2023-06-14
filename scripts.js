@@ -103,6 +103,22 @@ function drawRightLeg() {
 function clearCanvas() {
   hangmanContext.clearRect(0, 0, hangmanCanvas.width, hangmanCanvas.height);
 }
+//popup message
+// function showPopup(message) {
+//   const popupContainer = document.getElementById("popup-container");
+//   const popupMessage = document.getElementById("popup-message");
+//   const popupCloseButton = document.getElementById("popup-close");
+  
+//   popupMessage.textContent = message;
+//   popupContainer.style.display = "block";
+
+//   popupCloseButton.addEventListener("click", function() {
+//     popupContainer.style.display = "none";
+//   });
+
+  
+// }
+
 
 // Draw the hangman based on the incorrect guess count
 function drawHangman() {
@@ -110,22 +126,22 @@ function drawHangman() {
   
   switch (incorrectGuessCount) {
     case 1:
-      drawScaffold();
-      break;
-    case 2:
       drawScaffold();drawHead();
       break;
-    case 3:
+    case 2:
       drawScaffold();drawHead();drawBody();
       break;
-    case 4:
+    case 3:
       drawScaffold();drawHead();drawBody();drawLeftArm();
       break;
-    case 5:
+    case 4:
       drawScaffold();drawHead();drawBody();drawLeftArm();drawRightArm();
       break;
-    case 6:
+    case 5:
       drawScaffold();drawHead();drawBody();drawLeftArm();drawRightArm();drawLeftLeg();
+      break;
+    case 6:
+      drawScaffold();drawHead();drawBody();drawLeftArm();drawRightArm();drawLeftLeg();drawRightLeg();
       break;
     case 7:
       drawScaffold();drawHead();drawBody();drawLeftArm();drawRightArm();drawLeftLeg();drawRightLeg();
